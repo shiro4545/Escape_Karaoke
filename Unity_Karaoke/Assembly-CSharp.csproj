@@ -56,18 +56,20 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Script/SaveLoad/SaveLoadSystem.cs" />
-    <Compile Include="Assets/Script/GameScript/ClearEscape.cs" />
-    <Compile Include="Assets/Script/SaveLoad/GameData.cs" />
-    <Compile Include="Assets/Script/UI/BlockPanel.cs" />
-    <Compile Include="Assets/Script/UI/UIConroller.cs" />
     <Compile Include="Assets/Script/Audio/AudioManager.cs" />
-    <Compile Include="Assets/Script/GameScript/HintManager.cs" />
+    <Compile Include="Assets/Script/GameScript/ManagerScript/CameraManager.cs" />
     <Compile Include="Assets/Script/GoogleAdmob/GoogleAds.cs" />
-    <Compile Include="Assets/Script/SaveLoad/StartResetSystem.cs" />
-    <Compile Include="Assets/Script/GameScript/ItemManager.cs" />
-    <Compile Include="Assets/Script/GameScript/CameraManager.cs" />
+    <Compile Include="Assets/Script/GameScript/ManagerScript/ItemManager.cs" />
+    <Compile Include="Assets/Script/GameScript/ManagerScript/ClearManager.cs" />
+    <Compile Include="Assets/Script/UI/BlockPanel.cs" />
     <Compile Include="Assets/Script/GoogleAdmob/IDFA.cs" />
+    <Compile Include="Assets/Script/SaveLoad/GameData.cs" />
+    <Compile Include="Assets/Script/SaveLoad/StartResetManager.cs" />
+    <Compile Include="Assets/Script/GameScript/ManagerScript/HintManager.cs" />
+    <Compile Include="Assets/Script/SaveLoad/SaveLoadSystem.cs" />
+    <Compile Include="Assets/Script/UI/UIManager.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapCollider.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapItemGet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds_version-7.0.0_manifest.txt" />
@@ -302,11 +304,11 @@
     <Reference Include="GoogleMobileAds.Unity">
       <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll</HintPath>
     </Reference>
-    <Reference Include="GoogleMobileAds.Common">
-      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="GoogleMobileAds.Common">
+      <HintPath>Assets/GoogleMobileAds/GoogleMobileAds.Common.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.29f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -662,11 +664,17 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -676,6 +684,15 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
@@ -689,23 +706,8 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.DeviceSimulator.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{22AAFF49-B386-B6A2-2308-DD98A85A234E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/SaveLoad/SaveLoadSystem.cs">
+    <Files>
+      <File FileName="Assets/Script/UI/UIManager.cs" Line="49" Column="6" />
+      <File FileName="Assets/Script/SaveLoad/StartResetManager.cs" Line="16" Column="16" />
+      <File FileName="Assets/Script/GameScript/HintManager.cs" Line="20" Column="26" />
+      <File FileName="Assets/Script/GameScript/ClearManager.cs" Line="25" Column="35" />
+      <File FileName="Assets/Script/GameScript/ItemManager.cs" Line="227" Column="40" />
+      <File FileName="Assets/Script/GameScript/ManagerScript/CameraManager.cs" Line="81" Column="31" />
+      <File FileName="Assets/Script/GoogleAdmob/GoogleAds.cs" Line="52" Column="1" NotebookId="1" />
+      <File FileName="Assets/Script/SaveLoad/SaveLoadSystem.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="3b988c75-7d07-48fa-8c56-1009e30f30d8" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
