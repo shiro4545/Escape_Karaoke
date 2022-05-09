@@ -23,10 +23,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 1000
-  m_MinSize: {x: 908, y: 471}
-  m_MaxSize: {x: 22003, y: 14021}
+  m_MinSize: {x: 907, y: 492}
+  m_MaxSize: {x: 22002, y: 14042}
   vertical: 0
-  controlID: 102
+  controlID: 3795
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,9 +63,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 0.7193425, y: 2.2008574, z: -2.1391299}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 0.7193425, y: 2.2008574, z: -2.1391299}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -112,13 +112,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14758377, y: 0.8228234, z: -0.24806152, w: -0.4895393}
+    m_Target: {x: -0.0012124778, y: 0.9739127, z: -0.0061967075, w: -0.22722186}
     speed: 2
-    m_Value: {x: -0.14684911, y: 0.8231936, z: -0.24682671, w: -0.48975953}
+    m_Value: {x: -0.0012123714, y: 0.9738273, z: -0.006196164, w: -0.22720192}
   m_Size:
-    m_Target: 6.064608
+    m_Target: 2.9467945
     speed: 2
-    m_Value: 6.060063
+    m_Value: 2.9467945
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -272,10 +272,10 @@ MonoBehaviour:
     y: 0
     width: 332
     height: 1000
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 127
+  controlID: 3734
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,8 +295,8 @@ MonoBehaviour:
     y: 0
     width: 332
     height: 470
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -330,25 +330,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c6cdffff
-      m_LastClickedID: -12858
-      m_ExpandedIDs: 6ef4ffffc0f7fffffef7ffff70fbffff
+      m_SelectedIDs: 6a34ffff
+      m_LastClickedID: -52118
+      m_ExpandedIDs: 7634ffffb865ffffd49cffff169effffc0f7fffffef7ffff70fbffff00600000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Door2
+        m_OriginalName: Door2
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -39496
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -420,22 +420,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Model
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 93
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Model
   m_LastFoldersGridSize: 93
   m_LastProjectPath: /Users/shiromiyahara/Desktop/AppDevelopment/Karaoke/git/Unity_Karaoke
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4e3d0000
-    m_LastClickedID: 15694
-    m_ExpandedIDs: 000000004a3d0000
+    m_SelectedIDs: 1c5c0000
+    m_LastClickedID: 23580
+    m_ExpandedIDs: 000000004a3d0000905b0000da600000dc600000de600000e0600000e2600000e6600000ea600000ee600000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,7 +451,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 9}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -488,9 +488,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c6cdffff
-    m_LastClickedInstanceID: -12858
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 6a34ffff
+    m_LastClickedInstanceID: -52118
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
