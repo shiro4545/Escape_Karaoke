@@ -7600,3 +7600,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 211.477882 seconds.
+  path: Assets/Scenes/UmpeiScene.unity
+  artifactKey: Guid(7dde51f7818ac4fbda07d0be8e9d2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UmpeiScene.unity using Guid(7dde51f7818ac4fbda07d0be8e9d2037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc4b8d84eb4daad464824675b1b1d0c') in 0.021255 seconds 
+  Import took 0.025475 seconds .
+
