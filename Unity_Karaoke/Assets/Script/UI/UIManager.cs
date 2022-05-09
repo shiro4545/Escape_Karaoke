@@ -47,8 +47,8 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TitlePanel.SetActive(true);
-        GamePanel.SetActive(false);
+        //TitlePanel.SetActive(true);
+        //GamePanel.SetActive(false);
         //GamePanel.SetActive(true);
 
         //各パネルを画面サイズごとで変動させる
