@@ -78,7 +78,9 @@
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds.iOS.dll" />
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Core.dll" />
     <None Include="Assets/GoogleMobileAds/link.xml" />
+    <None Include="Assets/GooglePlayPlugins/com.google.play.review/Proguard/review.txt" />
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Unity.dll" />
+    <None Include="Assets/GooglePlayPlugins/com.google.play.core/Proguard/common.txt" />
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds.Android.dll" />
   </ItemGroup>
   <ItemGroup>
@@ -718,6 +720,22 @@
     <ProjectReference Include="GoogleMobileAds.Editor.csproj">
       <Project>{887FACB6-3EBC-7450-54C6-F6E4DB900BCE}</Project>
       <Name>GoogleMobileAds.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Core.csproj">
+      <Project>{35B19CFE-200D-3FB1-5CB1-5A824391028F}</Project>
+      <Name>Google.Play.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Review.csproj">
+      <Project>{30A398EC-54E8-AA33-B6EB-9EC00685147B}</Project>
+      <Name>Google.Play.Review</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
+      <Project>{49E63183-2B3F-0296-D689-6C92AED2FF60}</Project>
+      <Name>Google.Android.AppBundle.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Play.Common.csproj">
+      <Project>{739CB09F-587D-B51F-0BC3-666B4C9546FA}</Project>
+      <Name>Google.Play.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
