@@ -70,6 +70,8 @@
     <Compile Include="Assets/Script/UI/UIManager.cs" />
     <Compile Include="Assets/Script/GameScript/TapScript/TapCollider.cs" />
     <Compile Include="Assets/Script/GameScript/TapScript/TapItemGet.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapCameraMove.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapObjectChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds_version-7.0.0_manifest.txt" />

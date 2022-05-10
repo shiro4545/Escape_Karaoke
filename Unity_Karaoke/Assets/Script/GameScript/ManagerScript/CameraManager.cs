@@ -72,7 +72,7 @@ public class CameraManager : MonoBehaviour
                 Rotate =new Vector3(0,90,0),
                 MoveNames=new MoveNames
                 {
-                    Left="RoomDoor",
+                    Left="RoomBack",
                     Right="RoomFlont",
                 }
             }
@@ -86,12 +86,12 @@ public class CameraManager : MonoBehaviour
                 MoveNames=new MoveNames
                 {
                     Left="RoomFlont",
-                    Right="RoomDoor",
+                    Right="RoomBack",
                 },
             }
         },
         {
-            "RoomDoor",//扉方向
+            "RoomBack",//後壁方向
             new CameraPositionInfo
             {
                 Position=new Vector3(-2,5,-5),
@@ -100,6 +100,18 @@ public class CameraManager : MonoBehaviour
                 {
                     Left="RoomRight",
                     Right="RoomLeft",
+                }
+            }
+        },
+        {
+            "Door",//ドア
+            new CameraPositionInfo
+            {
+                Position=new Vector3(0,5,-0.55f),
+                Rotate =new Vector3(0,180,0),
+                MoveNames=new MoveNames
+                {
+                    Back="RoomFlont",
                 }
             }
         },
