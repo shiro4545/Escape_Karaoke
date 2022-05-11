@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{22AAFF49-B386-B6A2-2308-DD98A85A234E}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/UI/UIManager.cs">
     <Files>
-      <File FileName="Assets/Script/GameScript/ManagerScript/CameraManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GameScript/ManagerScript/CameraManager.cs" Line="111" Column="41" />
       <File FileName="Assets/Script/UI/UIManager.cs" Line="57" Column="1" />
       <File FileName="Assets/Script/SaveLoad/StartResetManager.cs" />
       <File FileName="Assets/Script/GoogleAdmob/GoogleAds.cs" Line="54" Column="6" NotebookId="1" />
