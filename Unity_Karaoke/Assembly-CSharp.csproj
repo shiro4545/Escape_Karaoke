@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Script/Audio/AudioManager.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapItemGet.cs" />
     <Compile Include="Assets/Script/GameScript/ManagerScript/CameraManager.cs" />
     <Compile Include="Assets/Script/GoogleAdmob/GoogleAds.cs" />
     <Compile Include="Assets/Script/GameScript/ManagerScript/ItemManager.cs" />
@@ -64,14 +65,13 @@
     <Compile Include="Assets/Script/UI/BlockPanel.cs" />
     <Compile Include="Assets/Script/GoogleAdmob/IDFA.cs" />
     <Compile Include="Assets/Script/SaveLoad/GameData.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapCameraMove.cs" />
+    <Compile Include="Assets/Script/GameScript/TapScript/TapObjectChange.cs" />
     <Compile Include="Assets/Script/SaveLoad/StartResetManager.cs" />
     <Compile Include="Assets/Script/GameScript/ManagerScript/HintManager.cs" />
     <Compile Include="Assets/Script/SaveLoad/SaveLoadSystem.cs" />
     <Compile Include="Assets/Script/UI/UIManager.cs" />
     <Compile Include="Assets/Script/GameScript/TapScript/TapCollider.cs" />
-    <Compile Include="Assets/Script/GameScript/TapScript/TapItemGet.cs" />
-    <Compile Include="Assets/Script/GameScript/TapScript/TapCameraMove.cs" />
-    <Compile Include="Assets/Script/GameScript/TapScript/TapObjectChange.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/GoogleMobileAds/GoogleMobileAds_version-7.0.0_manifest.txt" />
@@ -665,6 +665,9 @@
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2020.3.29f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.DeviceSimulator.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -677,9 +680,6 @@
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -691,6 +691,9 @@
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
       <HintPath>Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
@@ -710,30 +713,27 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.DeviceSimulator.Editor">
-      <HintPath>Library/ScriptAssemblies/Unity.DeviceSimulator.Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{E382E713-F130-95A9-94C6-780C042556B2}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
-      <Project>{887FACB6-3EBC-7450-54C6-F6E4DB900BCE}</Project>
-      <Name>GoogleMobileAds.Editor</Name>
-    </ProjectReference>
     <ProjectReference Include="Google.Play.Core.csproj">
       <Project>{35B19CFE-200D-3FB1-5CB1-5A824391028F}</Project>
       <Name>Google.Play.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
+      <Project>{49E63183-2B3F-0296-D689-6C92AED2FF60}</Project>
+      <Name>Google.Android.AppBundle.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Review.csproj">
       <Project>{30A398EC-54E8-AA33-B6EB-9EC00685147B}</Project>
       <Name>Google.Play.Review</Name>
     </ProjectReference>
-    <ProjectReference Include="Google.Android.AppBundle.Editor.csproj">
-      <Project>{49E63183-2B3F-0296-D689-6C92AED2FF60}</Project>
-      <Name>Google.Android.AppBundle.Editor</Name>
+    <ProjectReference Include="GoogleMobileAds.Editor.csproj">
+      <Project>{887FACB6-3EBC-7450-54C6-F6E4DB900BCE}</Project>
+      <Name>GoogleMobileAds.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Google.Play.Common.csproj">
       <Project>{739CB09F-587D-B51F-0BC3-666B4C9546FA}</Project>
